@@ -1,0 +1,25 @@
+runtime 10.0.15  modo stress
+n=4, tres eventos, el segundo degenera; mediana sobre 16 ciclos
+ limite     |1+sigma| (o |sigma| en parabol)   err M_GA vs M (mediana)   err peor   signo ok
+ singular    1.0E-002           2.9E-015           1.8E-014         16/16 
+ singular    1.0E-004           2.8E-015           9.9E-014         16/16 
+ singular    1.0E-006           2.8E-015           9.3E-015         16/16 
+ singular    1.0E-008           2.9E-015           5.2E-013         16/16 
+ singular    1.0E-010           3.6E-015           7.5E-011         16/16 
+   (excepcion: InvalidOperationException: Normal vector at index 1 is null/light-like (<n,Mn> = 2.000177801164682E-12). Reflections along null vectors are undefined.)
+ singular    1.0E-012                NaN                NaN          0/16 (16 excepciones)
+ rasante     1.0E+002           2.8E-015           6.5E-015         16/16 
+ rasante     1.0E+004           3.0E-015           6.3E-015         16/16 
+ rasante     1.0E+006           2.8E-015           8.4E-015         16/16 
+ rasante     1.0E+008           3.0E-015           5.1E-015         16/16 
+ rasante     1.0E+010           2.7E-015           7.3E-015         16/16 
+ parabol+    1.0E-002           4.2E-015           1.1E-014         16/16 
+ parabol+    1.0E-004           3.5E-015           2.2E-014         16/16 
+ parabol+    1.0E-006           2.9E-015           1.7E-014         16/16 
+ parabol+    1.0E-008           2.8E-015           7.5E-015         16/16 
+ parabol+    1.0E-010           3.2E-015           4.8E-015         16/16 
+   (excepcion: InvalidOperationException: Normal vector at index 0 is null/light-like (<n,Mn> = 2.0000000000000004E-12). Reflections along null vectors are undefined.)
+ parabol+    1.0E-012                NaN                NaN          0/16 (16 excepciones)
+ parabol-    1.0E-002           2.8E-015           4.5E-015         16/16 
+ parabol-    1.0E-006           3.1E-015           3.0E-014         16/16 
+ parabol-    1.0E-010           2.9E-015           1.9E-014         16/16 

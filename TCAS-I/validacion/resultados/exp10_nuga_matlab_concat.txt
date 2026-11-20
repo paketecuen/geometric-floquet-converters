@@ -1,0 +1,41 @@
+MATLAB 24.1.0.2568132 (R2024a) Update 1  (composicion por concatenacion)
+
+== BENCH ==
+ n  refl  err(M_GA,M) plano  err compensado  signo ok  t_matriz[us] t_concat[us] t_vecGA[us] t_vecGAcomp[us] t_vecM[us]
+ 2    22        8.0e-16          9.0e-16      6/6          5.40       284.8        4.44         187.39       0.102
+ 3    34        8.7e-16          9.6e-16      6/6          5.38       271.2        5.85         232.60       0.092
+ 4    46        2.4e-15          1.1e-15      6/6          5.56       284.6        8.06         274.22       0.107
+ 5    58        2.9e-15          1.3e-15      6/6          5.56       286.6       10.31         302.60       0.105
+ 6    70        1.0e-15          9.6e-16      6/6          6.20       307.5       11.16         335.49       0.119
+ 7    82        3.2e-15          1.9e-15      6/6          6.56       300.6       14.51         393.50       0.123
+ 8    94        2.4e-15          2.2e-15      6/6          6.69       313.7       15.97         424.66       0.122
+
+== STRESS n=4 (concatenacion); 16 ciclos ==
+ limite      valor    | plano: err mediana  peor | compensado: err mediana  peor | signo ok | excepciones
+ singular    1.0e-02 |      9.9e-16   3.1e-15 |         9.0e-16   1.8e-15 |   16/16  | 0 
+ singular    1.0e-04 |      9.8e-16   3.6e-15 |         8.1e-16   3.9e-15 |   16/16  | 0 
+ singular    1.0e-06 |      7.5e-16   8.5e-15 |         6.1e-16   3.7e-15 |   16/16  | 0 
+ singular    1.0e-08 |      1.0e-15   7.7e-15 |         7.3e-16   4.4e-15 |   16/16  | 0 
+ singular    1.0e-10 |      9.7e-16   5.9e-15 |         7.1e-16   1.7e-15 |   13/16  | 3 WittSimilitude:InvalidArguments
+ singular    1.0e-12 |          NaN       NaN |             NaN       NaN |    0/16  | 16 WittSimilitude:InvalidArguments
+ rasante     1.0e+02 |      1.3e-15   2.1e-15 |         1.1e-15   2.1e-15 |   16/16  | 0 
+ rasante     1.0e+04 |      8.6e-16   6.4e-15 |         8.6e-16   3.7e-15 |   16/16  | 0 
+ rasante     1.0e+06 |      1.2e-15   3.5e-15 |         1.0e-15   2.2e-15 |   16/16  | 0 
+ rasante     1.0e+08 |      9.7e-16   1.7e-15 |         7.8e-16   1.5e-15 |   16/16  | 0 
+ rasante     1.0e+10 |      1.1e-15   6.0e-15 |         8.3e-16   1.4e-15 |   15/16  | 1 WittSimilitude:InvalidArguments
+ parabol+    1.0e-02 |      1.2e-15   2.8e-15 |         1.2e-15   2.5e-15 |   16/16  | 0 
+ parabol+    1.0e-06 |      1.0e-15   8.9e-15 |         1.0e-15   6.5e-15 |   16/16  | 0 
+ parabol+    1.0e-10 |      1.2e-15   2.2e-15 |         9.4e-16   1.7e-15 |   16/16  | 0 
+ parabol+    1.0e-12 |      3.8e-15   3.8e-15 |         2.4e-15   2.4e-15 |    1/16  | 15 WittSimilitude:InvalidArguments
+
+== Reproductor minimo del fallo euclideo ==
+ n=2, rotacion plana de 0.3 rad en el plano (1,2): FALLA  Unable to perform assignment because the size of the left side is 1-by  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)
+ n=2, antisimetrica generica: FALLA  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)
+ n=3, rotacion plana de 0.3 rad en el plano (1,2): FALLA  Unable to perform assignment because the size of the left side is 1-by  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)
+ n=3, antisimetrica generica: FALLA  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)
+ n=4, rotacion plana de 0.3 rad en el plano (1,2): FALLA  Unable to perform assignment because the size of the left side is 1-by  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)
+ n=4, antisimetrica generica: FALLA  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)
+ n=5, rotacion plana de 0.3 rad en el plano (1,2): FALLA  Unable to perform assignment because the size of the left side is 1-by  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)
+ n=5, antisimetrica generica: FALLA  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)
+ n=6, rotacion plana de 0.3 rad en el plano (1,2): FALLA  Unable to perform assignment because the size of the left side is 1-by  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)
+ n=6, antisimetrica generica: FALLA  (EuclideanQuadraticSpace.householderReflectionNormals, linea 1520)

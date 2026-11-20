@@ -1,0 +1,68 @@
+MATLAB 24.1.0.2568132 (R2024a) Update 1
+
+== BENCH ==
+ n  refl  err(M_GA,M)  err(bloque V)  signo ok  t_matriz[us] t_compon[us] t_isom[us] t_rotor[us] t_vecGA[us] t_vecGAcomp[us] t_vecM[us]
+ 2     6      1.4e-13       1.8e-13      6/6          5.87      14582.8      125.0      2538.8        1.50         129.25       0.089
+ 3    10      1.8e-14       3.4e-14      6/6          5.41      15988.2      137.5      2978.2        2.14         134.51       0.088
+ 4    14      1.5e-13       5.6e-13      6/6          6.22      20209.6      146.5      4239.1        2.58         159.67       0.097
+ 5    16      1.1e-13       6.2e-14      6/6          5.99      21590.5      160.6      4178.8        3.15         162.26       0.101
+ 6    22      4.7e-14       2.7e-13      6/6          6.52      24592.9      172.4      5496.3        4.03         179.81       0.106
+ 7    24      1.6e-12       8.1e-12      6/6          6.84      27485.4      193.2      5485.6        4.68         192.46       0.127
+ 8    30      3.4e-14       3.9e-14      6/6          6.98      29902.5      211.3      6221.7        5.70         215.79       0.115
+
+== STRESS n=4, tres eventos, el segundo degenera; 16 ciclos ==
+ limite      valor      err mediana   err peor   signo ok   excepciones (primera)
+ -- mapeo compensado = 0 --
+ singular    1.0e-02      3.1e-12     1.5e-10    16/16    0 
+ singular    1.0e-04      1.5e-07     1.0e-04    16/16    0 
+ singular    1.0e-06      3.8e-04     2.2e+00    16/16    0 
+ singular    1.0e-08      1.8e+00     3.5e+02    11/16    0 
+ singular    1.0e-10      1.0e+00     1.8e+00     4/16    3 WittSimilitude:InvalidArguments
+ singular    1.0e-12          NaN         NaN     0/16    16 WittSimilitude:InvalidArguments
+ rasante     1.0e+02      8.4e-12     5.9e-10    16/16    0 
+ rasante     1.0e+04      5.5e-08     1.1e-05    16/16    0 
+ rasante     1.0e+06      8.5e-04     1.3e-01    16/16    0 
+ rasante     1.0e+08      1.5e+00     3.5e+01     9/16    0 
+ rasante     1.0e+10      9.8e-01     6.9e+00    11/16    1 WittSimilitude:InvalidArguments
+ parabol+    1.0e-02      1.5e-14     1.1e-13    16/16    0 
+ parabol+    1.0e-04      1.1e-12     1.3e-11    16/16    0 
+ parabol+    1.0e-06      1.4e-10     4.0e-10    16/16    0 
+ parabol+    1.0e-08      5.1e-09     8.3e-08    16/16    0 
+ parabol+    1.0e-10      1.7e-15     5.5e-14    16/16    0 
+ parabol+    1.0e-12      4.8e-15     7.7e-15     2/16    14 WittSimilitude:InvalidArguments
+ -- mapeo compensado = 1 --
+ singular    1.0e-02      6.3e-12     3.3e-09    16/16    0 
+ singular    1.0e-04      3.1e-08     8.8e-06    16/16    0 
+ singular    1.0e-06      4.7e-04     2.8e-02    16/16    0 
+ singular    1.0e-08      1.4e+00     2.2e+02     7/16    0 
+ singular    1.0e-10      1.1e+00     4.2e+00     6/16    1 WittSimilitude:InvalidArguments
+ singular    1.0e-12          NaN         NaN     0/16    16 WittSimilitude:InvalidArguments
+ rasante     1.0e+02      8.8e-12     4.1e-11    16/16    0 
+ rasante     1.0e+04      8.4e-08     4.4e-06    16/16    0 
+ rasante     1.0e+06      1.4e-03     7.2e-01    15/16    0 
+ rasante     1.0e+08      1.6e+00     4.5e+01     6/16    0 
+ rasante     1.0e+10      1.0e+00     5.4e+00     6/16    0 
+ parabol+    1.0e-02      1.2e-14     1.7e-13    16/16    0 
+ parabol+    1.0e-04      2.2e-12     1.2e-11    16/16    0 
+ parabol+    1.0e-06      9.0e-11     2.1e-09    16/16    0 
+ parabol+    1.0e-08      6.7e-09     1.0e-07    16/16    0 
+ parabol+    1.0e-10      9.6e-16     8.6e-15    16/16    0 
+ parabol+    1.0e-12      9.3e-16     3.3e-15     4/16    12 WittSimilitude:InvalidArguments
+
+== FIRMAS: la misma rotacion en euclidea(n) y en Witt(n,n) ==
+ n | eucl: refl  err   t_vec[us] | Witt: refl  err   t_vec[us] | matriz t_vec[us]
+{Unable to perform assignment because the size of the left side is 1-by-1 and
+the size of the right side is 1-by-0.
+
+Error in EuclideanQuadraticSpace/householderReflectionNormals (line 1520)
+                normals(j:n, count) = v;
+
+Error in EuclideanQuadraticSpace/similitudeFromIsometryMatrix (line 1060)
+            normals = EuclideanQuadraticSpace.householderReflectionNormals( ...
+
+Error in EuclideanQuadraticSpace/similitudeFromBivectorCoefficientsMatrix (line 1043)
+            s = obj.similitudeFromIsometryMatrix(R, scalingFactor);
+
+Error in nuga_bench_m (line 76)
+            WE = eu.similitudeFromBivectorCoefficientsMatrix(C, 1.0);
+} 

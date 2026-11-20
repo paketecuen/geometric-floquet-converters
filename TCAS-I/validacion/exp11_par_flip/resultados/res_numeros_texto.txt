@@ -1,0 +1,10 @@
+Tabla III (L 100/106 uH, RL 60/52 mOhm, Iref = 1.60 A, ma = 0)
+  monodromia : par -0.654200 +/- 1.4740e-03 j
+  reduccion  : Delta = -1.9893e-03, kappa = 1.7790e-03, |Delta|/2k = 0.559, Im = 1.4750e-03
+  cerrada    : Delta = -1.9590e-03, kappa = 1.7822e-03, |Delta|/2k = 0.550, Im = 1.4889e-03,  media = -0.65360, lambda = -0.4147
+
+Frontera con rampa de 10 kA/s, fases iguales
+  Iref* = 2.4087 A, D = 0.5824, det S = -1.01177, lambda = +0.0117
+  kappa: monodromia 2.4038e-03; cerrada(lambda) 2.4325e-03; a^2 T^2/(4LC) = 2.4187e-03; (pi f0/fs)^2 = 2.5000e-03; a = 0.9836
+  batido: 2 pi/kappa = 2598 ciclos = 38.5 Hz;  monodromia en Iref*: 2616 ciclos
+  ventana: 2 kappa = 4.8374e-03 = 0.48 % de |1+sigma|

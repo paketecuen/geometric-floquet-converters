@@ -1,0 +1,80 @@
+
+emparejado
+  dI[mA]  |D|/2k   lineal (orbita de periodo 1)              atractor simulado
+     0.5   0.001   complejo |mu|=1.00050 batido   2617        batido     cada    2622 ciclos, rango  51.141 mA, a1  16.277 a2  16.181 mA
+     1.0   0.001   complejo |mu|=1.00100 batido   2618        batido     cada    2632 ciclos, rango  72.307 mA, a1  23.029 a2  22.878 mA
+     2.0   0.001   complejo |mu|=1.00199 batido   2619        batido     cada    2655 ciclos, rango 102.224 mA, a1  32.652 a2  32.274 mA
+     5.0   0.001   complejo |mu|=1.00499 batido   2623        batido     cada    2712 ciclos, rango 162.205 mA, a1  51.541 a2  40.288 mA
+    10.0   0.001   complejo |mu|=1.01000 batido   2631        batido     cada    2807 ciclos, rango 230.155 mA, a1  73.061 a2  43.480 mA
+    20.0   0.001   complejo |mu|=1.02011 batido   2645        batido     cada    3042 ciclos, rango 325.650 mA, a1 103.859 a2  45.559 mA
+    50.0   0.001   complejo |mu|=1.05111 batido   2692        batido     cada    4063 ciclos, rango 514.034 mA, a1 165.197 a2  47.312 mA
+
+L2/L1 = 1.005
+  dI[mA]  |D|/2k   lineal (orbita de periodo 1)              atractor simulado
+     0.5   0.325   complejo |mu|=1.00050 batido   2775        batido     cada    2787 ciclos, rango  52.855 mA, a1  16.455 a2  15.967 mA
+     1.0   0.326   complejo |mu|=1.00100 batido   2776        batido     cada    2796 ciclos, rango  76.699 mA, a1  23.502 a2  22.377 mA
+     2.0   0.326   complejo |mu|=1.00199 batido   2778        batido     cada    2819 ciclos, rango 111.009 mA, a1  33.589 a2  31.357 mA
+     5.0   0.326   complejo |mu|=1.00499 batido   2783        batido     cada    2891 ciclos, rango 173.222 mA, a1  53.083 a2  40.921 mA
+    10.0   0.327   complejo |mu|=1.01000 batido   2791        batido     cada    3015 ciclos, rango 238.943 mA, a1  74.963 a2  43.900 mA
+    20.0   0.329   complejo |mu|=1.02011 batido   2809        batido     cada    3325 ciclos, rango 331.988 mA, a1 106.033 a2  45.875 mA
+    50.0   0.335   complejo |mu|=1.05111 batido   2865        batido     cada    5058 ciclos, rango 518.028 mA, a1 171.986 a2  47.848 mA
+
+L2/L1 = 1.010
+  dI[mA]  |D|/2k   lineal (orbita de periodo 1)              atractor simulado
+     0.5   0.654   complejo |mu|=1.00050 batido   3477        batido     cada    3510 ciclos, rango  54.583 mA, a1  16.716 a2  15.722 mA
+     1.0   0.654   complejo |mu|=1.00100 batido   3478        batido     cada    3532 ciclos, rango  81.003 mA, a1  24.054 a2  21.907 mA
+     2.0   0.654   complejo |mu|=1.00199 batido   3482        batido     cada    3587 ciclos, rango 119.386 mA, a1  34.678 a2  30.660 mA
+     5.0   0.655   complejo |mu|=1.00499 batido   3492        batido     cada    3749 ciclos, rango 183.816 mA, a1  54.844 a2  42.605 mA
+    10.0   0.657   complejo |mu|=1.01000 batido   3509        batido     cada    4073 ciclos, rango 247.497 mA, a1  77.279 a2  45.448 mA
+    20.0   0.661   complejo |mu|=1.02011 batido   3543        batido     cada    5085 ciclos, rango 338.215 mA, a1 110.391 a2  47.355 mA
+    50.0   0.673   complejo |mu|=1.05111 batido   3658        periodo 2  a1 230.528 mA, a2  50.103 mA
+
+L2/L1 = 1.020
+  dI[mA]  |D|/2k   lineal (orbita de periodo 1)              atractor simulado
+     0.5   1.314   reales -1.00050, -0.99645                  periodo 2  a1  23.568 mA, a2  10.656 mA
+     1.0   1.314   reales -1.00100, -0.99694                  periodo 2  a1  33.364 mA, a2  14.991 mA
+     2.0   1.315   reales -1.00199, -0.99794                  periodo 2  a1  47.278 mA, a2  20.980 mA
+     5.0   1.317   reales -1.00499, -1.00091                  periodo 2  a1  75.514 mA, a2  32.089 mA
+    10.0   1.321   reales -1.01001, -1.00590                  periodo 2  a1 108.167 mA, a2  42.691 mA
+    20.0   1.328   reales -1.02014, -1.01595                  periodo 2  a1 155.225 mA, a2  50.013 mA
+    50.0   1.352   reales -1.05118, -1.04676                  periodo 2  a1 250.789 mA, a2  49.840 mA
+
+L2/L1 = 1.050
+  dI[mA]  |D|/2k   lineal (orbita de periodo 1)              atractor simulado
+     0.5   3.333   reales -1.00050, -0.98568                  periodo 2  a1  25.388 mA, a2   3.796 mA
+     1.0   3.334   reales -1.00099, -0.98617                  periodo 2  a1  35.906 mA, a2   5.353 mA
+     2.0   3.336   reales -1.00199, -0.98715                  periodo 2  a1  50.785 mA, a2   7.528 mA
+     5.0   3.341   reales -1.00499, -0.99010                  periodo 2  a1  80.638 mA, a2  11.716 mA
+    10.0   3.350   reales -1.01000, -0.99503                  periodo 2  a1 114.326 mA, a2  16.046 mA
+    20.0   3.368   reales -1.02010, -1.00498                  periodo 2  a1 161.820 mA, a2  21.244 mA
+    50.0   3.428   reales -1.05109, -1.03548                  periodo 2  a1 256.018 mA, a2  27.525 mA
+
+RL 60/56 mOhm
+  dI[mA]  |D|/2k   lineal (orbita de periodo 1)              atractor simulado
+     0.5   0.546   complejo |mu|=1.00050 batido   3124        batido     cada    3146 ciclos, rango  53.949 mA, a1  16.544 a2  15.920 mA
+     1.0   0.546   complejo |mu|=1.00099 batido   3126        batido     cada    3161 ciclos, rango  79.509 mA, a1  23.833 a2  22.131 mA
+     2.0   0.547   complejo |mu|=1.00199 batido   3129        batido     cada    3198 ciclos, rango 116.613 mA, a1  34.260 a2  30.956 mA
+     5.0   0.548   complejo |mu|=1.00498 batido   3138        batido     cada    3317 ciclos, rango 180.429 mA, a1  54.274 a2  41.885 mA
+    10.0   0.551   complejo |mu|=1.00999 batido   3154        batido     cada    3527 ciclos, rango 244.789 mA, a1  76.253 a2  44.835 mA
+    20.0   0.557   complejo |mu|=1.02010 batido   3186        batido     cada    4116 ciclos, rango 336.258 mA, a1 108.106 a2  46.751 mA
+    50.0   0.575   complejo |mu|=1.05107 batido   3292        periodo 2  a1 214.974 mA, a2  50.089 mA
+
+RL 60/52 mOhm
+  dI[mA]  |D|/2k   lineal (orbita de periodo 1)              atractor simulado
+     0.5   1.092   reales -1.00050, -0.99839                  periodo 2  a1  22.060 mA, a2  14.211 mA
+     1.0   1.093   reales -1.00100, -0.99888                  periodo 2  a1  31.294 mA, a2  19.921 mA
+     2.0   1.094   reales -1.00200, -0.99987                  periodo 2  a1  44.515 mA, a2  27.695 mA
+     5.0   1.097   reales -1.00501, -1.00284                  periodo 2  a1  71.855 mA, a2  41.598 mA
+    10.0   1.103   reales -1.01005, -1.00780                  periodo 2  a1 104.425 mA, a2  50.209 mA
+    20.0   1.115   reales -1.02020, -1.01782                  periodo 2  a1 151.989 mA, a2  50.097 mA
+    50.0   1.151   reales -1.05133, -1.04853                  periodo 2  a1 249.222 mA, a2  49.902 mA
+
+articulo: L 100/106, RL 60/52
+  dI[mA]  |D|/2k   lineal (orbita de periodo 1)              atractor simulado
+     0.5   5.145   reales -1.00050, -0.97716                  periodo 2  a1  25.529 mA, a2   2.446 mA
+     1.0   5.147   reales -1.00099, -0.97765                  periodo 2  a1  36.105 mA, a2   3.451 mA
+     2.0   5.150   reales -1.00199, -0.97862                  periodo 2  a1  51.062 mA, a2   4.855 mA
+     5.0   5.160   reales -1.00498, -0.98153                  periodo 2  a1  81.057 mA, a2   7.571 mA
+    10.0   5.176   reales -1.00999, -0.98641                  periodo 2  a1 114.864 mA, a2  10.407 mA
+    20.0   5.210   reales -1.02009, -0.99624                  periodo 2  a1 162.460 mA, a2  13.860 mA
+    50.0   5.317   reales -1.05107, -1.02639                  periodo 2  a1 256.627 mA, a2  18.167 mA

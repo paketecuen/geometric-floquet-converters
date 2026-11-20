@@ -1,0 +1,21 @@
+1. Tabla I de Giaouris et al. frente a la monodromia por saltaciones
+   Iref      d(pub)  d(calc)   publicado                          calculado                         kappa     |Delta|
+   0.1       0.1184  0.1184   0.3132, -0.1949 +/- 0.0014i        0.3132, -0.1949 +/- 0.0295i        0.0266   1.9e-03
+   0.25      0.4367  0.4124   0.5255, -0.8324 +/- 0.0125i        0.5255, -0.8324 +/- 0.0125i        0.0130   1.2e-03
+   0.29      0.4587  0.4587   0.5428, -0.9947 +/- 0.0341i        0.5428, -0.9947 +/- 0.0341i        0.0359   4.1e-03
+   0.291166  0.4599  0.4599   0.5432, -0.9994 +/- 0.0349i        0.5432, -0.9994 +/- 0.0349i        0.0367   4.2e-03
+   0.3       0.4690  0.4690   1.0346... 0.5462, -1.0346 +/- 0.0408i 0.5462, -1.0346 +/- 0.0408i        0.0431   5.1e-03
+
+2. En su frontera (Iref = 0.291166 A): umbral de desajuste que convertiria el toro en doblamiento
+   det S = -0.8351, -0.8351;  kappa = 0.0367;  ventana del toro: |Delta| < 2 kappa = 0.0734 (8.8% de det S)
+   desajuste de L sin rampa (det S = -m2/m1 no depende de L):
+     L2/L1 = 1.02:  |Delta|/2k = 0.050   par: -1.0021-0.0360j, -1.0021+0.0360j
+     L2/L1 = 1.05:  |Delta|/2k = 0.041   par: -1.0060-0.0375j, -1.0060+0.0375j
+     L2/L1 = 1.10:  |Delta|/2k = 0.029   par: -1.0121-0.0398j, -1.0121+0.0398j
+     L2/L1 = 1.20:  |Delta|/2k = 0.010   par: -1.0228-0.0436j, -1.0228+0.0436j
+   desajuste de la tension de entrada vista por cada fase (caida distinta en cada rama):
+     Vin2 = Vin -  20 mV:  dif det S = 0.0075  |Delta|/2k = 0.165   par: -1.0017-0.0350j, -1.0017+0.0350j
+     Vin2 = Vin -  50 mV:  dif det S = 0.0187  |Delta|/2k = 0.323   par: -1.0053-0.0344j, -1.0053+0.0344j
+     Vin2 = Vin - 100 mV:  dif det S = 0.0378  |Delta|/2k = 0.574   par: -1.0114-0.0309j, -1.0114+0.0309j
+     Vin2 = Vin - 150 mV:  dif det S = 0.0571  |Delta|/2k = 0.812   par: -1.0176-0.0228j, -1.0176+0.0228j
+     Vin2 = Vin - 200 mV:  dif det S = 0.0768  |Delta|/2k = 1.041   par: -1.0123, -1.0356

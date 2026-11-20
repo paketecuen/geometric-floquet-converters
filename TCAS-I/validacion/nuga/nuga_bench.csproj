@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Compilar con:  dotnet build -c Release -p:GaflAlgebra=/ruta/a/GeometricAlgebraFulcrumLib.Algebra.csproj
+       La biblioteca de A. Eid no se incluye aqui (codigo suyo, sin publicar). -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <Optimize>true</Optimize>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(GaflAlgebra)" />
+  </ItemGroup>
+</Project>

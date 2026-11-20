@@ -1,0 +1,25 @@
+{
+ "semilla": 20260726,
+ "margen": 0.05,
+ "bloque_A": {
+  "ensayos": 20000,
+  "margen": 0.05,
+  "cond_max": 10000000000.0,
+  "descartados_mal_condicionados": 224,
+  "fallos_paridad": [],
+  "fallos_numericos": [],
+  "fallos_autovalores": [],
+  "fallos_impar_sin_negativo": [],
+  "peor_error_relativo_det": 6.274796795435131e-07,
+  "permitidos_par_con_2neg": 4891,
+  "segundos": 19.7
+ },
+ "bloque_B": {
+  "ensayos": 200,
+  "validos": 200,
+  "fallos": [],
+  "err_relativo_max": 5.703148709259119e-11,
+  "desvio_max_absWW": 5.629363641901364e-11,
+  "segundos": 463.0
+ }
+}

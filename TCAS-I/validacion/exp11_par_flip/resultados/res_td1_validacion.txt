@@ -1,0 +1,33 @@
+A) Tabla III del articulo (Iref = 1.60 A, ma = 0)
+  articulo: L 100/106, RL 60/52  |x*_td - x*_F| = 0.0e+00  |J - M| = 1.7e-08  |Delta|/2k =  0.559
+      Floquet : -0.6541997-0.0014740j, -0.6541997+0.0014740j  (complejo)
+      temporal: -0.6541997-0.0014740j, -0.6541997+0.0014740j  (complejo)
+  emparejado                     |x*_td - x*_F| = 0.0e+00  |J - M| = 1.8e-08  |Delta|/2k =  0.001
+      Floquet : -0.6524555-0.0018267j, -0.6524555+0.0018267j  (complejo)
+      temporal: -0.6524555-0.0018267j, -0.6524555+0.0018267j  (complejo)
+
+B) 5 mA por debajo de la frontera (ma = 10 kA/s)
+  emparejado (Iref* = 2.40870)   |x*_td - x*_F| = 0.0e+00  |J - M| = 1.8e-08  |Delta|/2k =  0.001
+      Floquet : -0.9950376-0.0023962j, -0.9950376+0.0023962j  (complejo)
+      temporal: -0.9950376-0.0023962j, -0.9950376+0.0023962j  (complejo)
+  L2/L1 = 1.005 (Iref* = 2.40911) |x*_td - x*_F| = 0.0e+00  |J - M| = 2.5e-08  |Delta|/2k =  0.324
+      Floquet : -0.9950380-0.0022603j, -0.9950380+0.0022603j  (complejo)
+      temporal: -0.9950380-0.0022604j, -0.9950380+0.0022604j  (complejo)
+  L2/L1 = 1.010 (Iref* = 2.40953) |x*_td - x*_F| = 0.0e+00  |J - M| = 2.7e-08  |Delta|/2k =  0.652
+      Floquet : -0.9950389-0.0018076j, -0.9950389+0.0018076j  (complejo)
+      temporal: -0.9950389-0.0018076j, -0.9950389+0.0018076j  (complejo)
+  L2/L1 = 1.020 (Iref* = 2.40835) |x*_td - x*_F| = 0.0e+00  |J - M| = 1.5e-08  |Delta|/2k =  1.310
+      Floquet : -0.9950339, -0.9910241  (real    )
+      temporal: -0.9950339, -0.9910241  (real    )
+  L2/L1 = 1.050 (Iref* = 2.40552) |x*_td - x*_F| = 0.0e+00  |J - M| = 1.7e-08  |Delta|/2k =  3.323
+      Floquet : -0.9950415, -0.9803079  (real    )
+      temporal: -0.9950415, -0.9803079  (real    )
+  RL 60/56 mOhm (Iref* = 2.41002) |x*_td - x*_F| = 0.0e+00  |J - M| = 1.1e-08  |Delta|/2k =  0.543
+      Floquet : -0.9950417-0.0020119j, -0.9950417+0.0020119j  (complejo)
+      temporal: -0.9950417-0.0020119j, -0.9950417+0.0020119j  (complejo)
+  RL 60/52 mOhm (Iref* = 2.41028) |x*_td - x*_F| = 0.0e+00  |J - M| = 1.3e-08  |Delta|/2k =  1.086
+      Floquet : -0.9950164, -0.9929861  (real    )
+      temporal: -0.9950164, -0.9929861  (real    )
+  articulo: L 100/106, RL 60/52 (Iref* = 2.40473) |x*_td - x*_F| = 0.0e+00  |J - M| = 9.6e-09  |Delta|/2k =  5.127
+      Floquet : -0.9950438, -0.9718522  (real    )
+      temporal: -0.9950438, -0.9718522  (real    )
